@@ -92,7 +92,7 @@ def main():
                     end_row = uss.upd_spreadsheet(prnt_tweet_rows, end_row)
                 else:
                     print("No new tweet added to write into sheet!")
-                time.sleep(120)
+                time.sleep(300)
             else:
                 print('Twitter BOT Failed!!') 
                 break
